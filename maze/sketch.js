@@ -7,17 +7,17 @@ var current;
 var stack = [];
 
 function setup() {
-    var canvasWidth = 1000;
-    var circle = false;
+    var canvasWidth = 600;
+    var circle = true;
     createCanvas(canvasWidth, canvasWidth);
     background(51);
     frameRate(999);
-    size = 20;
-    rows = 10;
-    cols = 40;
+    size = 10;
+    rows = 30;
+    cols = 30;
     width = size*rows;
     var r = rows/2;
-    translate((canvasWidth-width)/2, 0);
+    translate((canvasWidth-width)/2, (canvasWidth-width)/2);
     for (var i = 0; i < rows; i++) {
         grid[i] = [];
         for (var j = 0; j < cols; j++) {
@@ -27,7 +27,7 @@ function setup() {
         }
     }
 
-    current = grid[0][0];
+    current = grid[20][20];
 }
 
 function draw() {

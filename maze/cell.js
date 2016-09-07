@@ -28,7 +28,7 @@ var Cell = function(o){
         if (bottom && !bottom.visited) {
             neighbors.push(bottom);
         }
-        if (left && !left.visited && Math.random() <= 0.1) {
+        if (left && !left.visited) {
             neighbors.push(left);
         }
 
