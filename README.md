@@ -8,3 +8,5 @@ Been playing around some with p5.js
 * [Sodoku solver](https://sebastianandreasson.github.io/p5_playground/sodokuSolver/)
 
 * [Tree generator](https://sebastianandreasson.github.io/p5_playground/trees/)
+
+* [Number spiral + manhattan distance](https://sebastianandreasson.github.io/p5_playground/numberSpiral/)
