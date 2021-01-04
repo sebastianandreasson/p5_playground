@@ -10,3 +10,5 @@ Been playing around some with p5.js
 * [Tree generator](https://sebastianandreasson.github.io/p5_playground/trees/)
 
 * [Number spiral + manhattan distance](https://sebastianandreasson.github.io/p5_playground/numberSpiral/)
+
+* [Quadtree + Boids](https://sebastianandreasson.github.io/p5_playground/quadtree-boids/)
